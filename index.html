@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="visor">
+            <p id="tela"></p>
+        </div>
+        <div class="botoes">
+            <div>
+                <button class="botao__operador">x^y</button>
+                <button class="botao__operador">x^2</button>
+                <button id="porcentagem" class="botao__operador">%</button>
+                <button class="botaoApagar" onclick=apagar()>C</button>
+            </div>
+            <div>
+                <button id="7" class="botao__numero">7</button>
+                <button id="8" class="botao__numero">8</button>
+                <button id="9" class="botao__numero">9</button>
+                <button class="botao__operador">X</button>
+            </div>
+            <div>
+                <button id="4" class="botao__numero">4</button>
+                <button id="5" class="botao__numero">5</button>
+                <button id="6" class="botao__numero">6</button>
+                <button id="divisao" class="botao__operador">/</button>
+            </div>
+            <div>
+                <button id="1" class="botao__numero">1</button>
+                <button id="2" class="botao__numero">2</button>
+                <button id="3" class="botao__numero">3</button>
+                <button id="adicao" class="botao__operador">+</button>
+            </div>
+            <div>
+                <button id="0" class="botao__numero">0</button>
+                <button id="ponto">.</button>
+                <button class="botaoIgual" id="igual">=</button>
+                <button id="subtracao botao__operador">-</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
